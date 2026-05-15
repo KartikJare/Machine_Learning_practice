@@ -1,47 +1,48 @@
-# 🤖 Machine Learning Practice Repository
+# 🤖 Machine Learning Practice – Case Studies
 
 ## 📌 Description
 
-**Machine_Learning_practice** is a collection of Python programs and experiments focused on learning and implementing **Machine Learning algorithms and concepts**.
+This repository contains multiple Machine Learning case studies implemented using Python.
 
-This repository helps in understanding how ML models work by implementing them using Python libraries and real datasets.
+The project is organized into separate folders, where each folder represents a different case study focused on solving real-world Machine Learning problems using data analysis, preprocessing, training, and evaluation techniques.
 
 ---
 
 ## 🎯 Objectives
 
-* Learn core Machine Learning concepts
-* Implement algorithms from scratch or using libraries
-* Understand data preprocessing and model evaluation
-* Build a strong foundation for AI/ML development
+* Learn practical Machine Learning workflows
+* Understand real-world dataset handling
+* Practice data preprocessing and model training
+* Improve model evaluation and analysis skills
 
 ---
 
 ## 🚀 Topics Covered
 
-### 🔹 Supervised Learning
+### 🔹 Data Preprocessing
+
+* Cleaning datasets
+* Handling missing values
+* Feature selection
+* Data normalization
+
+### 🔹 Machine Learning Algorithms
 
 * Linear Regression
 * Logistic Regression
 * Decision Trees
 * K-Nearest Neighbors (KNN)
-
-### 🔹 Unsupervised Learning
-
-* Clustering (if implemented)
-* Data grouping techniques
-
-### 🔹 Data Processing
-
-* Data cleaning
-* Feature selection
-* Normalization / scaling
+* Classification models
 
 ### 🔹 Model Evaluation
 
-* Accuracy
+* Accuracy calculation
 * Confusion Matrix
 * Performance analysis
+
+### 🔹 Data Visualization
+
+* Graphs and plots using Matplotlib
 
 ---
 
@@ -54,7 +55,6 @@ This repository helps in understanding how ML models work by implementing them u
   * Pandas
   * Matplotlib
   * Scikit-learn
-* Platform: Linux / Windows
 
 ---
 
@@ -62,22 +62,24 @@ This repository helps in understanding how ML models work by implementing them u
 
 ```bash
 Machine_Learning_practice/
-│── LinearRegression.py
-│── KNN.py
-│── DecisionTree.py
-│── Dataset/
+│── Advertising_case_study/
+│── Ball_Case_study/
+│── BreastCancer_Case_Study/
+│── ...
+│── WinePreed_Case_Study/
 │── README.md
 ```
 
-Each file contains:
+Each folder contains:
 
-* ML algorithm implementation
-* Dataset usage
-* Model training and testing
+* Dataset files
+* Machine Learning implementation
+* Training and testing logic
+* Result analysis
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ Machine Learning Workflow
 
 1. Load dataset
 2. Preprocess data
@@ -89,13 +91,13 @@ Each file contains:
 
 ## 🧑‍💻 How to Run
 
-### ▶️ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 ```
 
-### ▶️ Run Program
+### Run Program
 
 ```bash
 python3 filename.py
@@ -106,20 +108,18 @@ python3 filename.py
 ## 📊 Sample Output
 
 ```bash
-Accuracy: 85%
-Confusion Matrix:
-[[20  2]
- [ 3 15]]
+Accuracy: 89%
+Prediction Successful
 ```
 
 ---
 
 ## 💡 Learning Outcomes
 
-* Understanding Machine Learning algorithms
-* Data preprocessing techniques
-* Model training and evaluation
-* Practical ML implementation skills
+* Practical Machine Learning experience
+* Real-world dataset handling
+* Data analysis and visualization
+* Understanding ML model workflows
 
 ---
 
@@ -129,25 +129,18 @@ Confusion Matrix:
 
 ---
 
-## 📜 License
-
-All Rights Reserved © 2026
-This project is the intellectual property of the author. Unauthorized use is prohibited.
-
----
-
 ## ⭐ Why This Repository Matters
 
 This repository demonstrates:
 
 * Hands-on Machine Learning practice
-* Understanding of real-world datasets
-* Ability to implement ML models
+* Real-world case study implementation
+* Ability to work with datasets and models
 
 👉 Valuable for:
 
-* AI/ML roles
-* Data Science internships
-* Backend + AI integration
+* Machine Learning internships
+* Data Science learning
+* AI/ML portfolio building
 
 ---
